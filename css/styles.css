@@ -158,3 +158,43 @@ footer {
 .muestra {
     padding: 20px;
 }
+
+@media(max-width: 600px) {
+    .logo {
+        height: 60px
+    }
+}
+
+@media (max-width: 928px) {
+    .overlay-text {
+        position: unset;
+    }
+
+    .titular {
+        font-size: 2rem;
+    }
+
+    .subtitular {
+        font-size: 1.5rem;
+        margin: 5px;
+        text-align: center;
+    }
+
+    .titulito {
+        margin-top: 10px;
+        margin-bottom: 15px;
+        margin-left: 30px;
+        margin-right: 30px;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .resumen {
+        padding: 10px;
+    }
+
+    .aside1 {
+        padding: 10px;
+        padding-right: 10px;
+    }
+}
