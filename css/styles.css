@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(229, 224, 221);
+    font-family: 'DM Sans', sans-serif;
+    color: rgb(5, 6, 57);
+    line-height: 1.8;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(5, 6, 57);
+    display: inline
+}
+
+.tituloDePagina {
+    padding: 50px 50px;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.custom-margin .nav-item {
+    margin-right: 50px;
+}
+
+.custom-nav-link:hover {
+    color: rgb(36, 78, 123);
+    background-color: rgb(204, 192, 178);
+}
+
+.custom-nav-link {
+    color: rgb(17, 37, 58);
+}
+
+.carousel-home .carousel-item .d-block {
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-inner {
+    width: 100vw;
+}
+
+.carousel-container {
+    position: relative;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: rgba(255, 255, 255, 0.534);
+    padding: 10px;
+    margin: 35px;
+    z-index: 2;
+}
+
+.objetivos {
+    background-color: white;
+    text-align: justify;
+    font-size: 1.1rem;
+
+}
+
+h1 {
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    font-size: 5rem;
+    line-height: 1.2;
+}
+
+h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 3.5rem;
+}
+
+h3 {
+    font-family: 'DM Sans', sans-serif;
+    text-align: left;
+    font-size: 2rem;
+    line-height: 1.2;
+    margin: 50px;
+    text-emphasis: bold;
+}
+
+h4 {
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.2;
+    padding: 50px 50px;
+}
+
+.aside1 {
+    padding-right: 50px;
+}
+
+.objetivos {
+    padding: 30px;
+    margin-top: 50px;
+    font-size: 1rem;
+}
+
+.resumen {
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+}
+
+nav {
+    font-size: 1.5rem;
+    background-color: white;
+    padding: 0 0;
+    height: max-content;
+}
+
+.menu {
+    list-style: none;
+    text-align: right;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a:hover {
+    color: rgb(114, 166, 183);
+}
+
+footer {
+    background: white;
+    padding: 50px 50px;
+}
+
+.formulario {
+    padding: 50px 50px;
+}
+
+.logo {
+    height: 100px;
+    padding: 0px 50px;
+    text-align: left;
+}
+
+.quote {
+    font-size: 3rem;
+    font-style: italic;
+    padding: 50px;
+    background-color: white;
+}
+
+.muestra {
+    padding: 20px;
+}
