@@ -1,0 +1,28 @@
+$oscuro: rgb(5, 6, 57);
+$claro: rgb(223, 207, 190);
+$medio: rgb(36, 78, 123);
+
+.navbar {
+    font-size: 1.5rem;
+    background-color: white;
+    padding: 0 0;
+    width: 100vw;
+
+    .logo {
+        height: 100px;
+        padding: 0px 50px;
+        align-items: left;
+        border-radius: 25%;
+    }
+
+    .menu-link {
+        color: rgb(17, 37, 58);
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .custom-nav-link:hover {
+        color: rgb(36, 78, 123);
+        background-color: $claro;
+    }
+}

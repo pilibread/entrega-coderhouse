@@ -1,0 +1,29 @@
+@import 'footer';
+@import 'nav';
+@import 'index';
+@import 'pag2';
+@import 'pag3';
+@import 'pag4';
+@import 'pag5';
+@import 'pag6';
+@import 'pag7';
+
+$oscuro: rgb(5, 6, 57);
+$claro: rgb(223, 207, 190);
+$medio: rgb(36, 78, 123);
+$no-blanco: rgb(229, 224, 221);
+$titulo: 3rem;
+$texto: 1.3rem;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $no-blanco;
+    font-family: 'DM Sans', sans-serif;
+    color: rgb(5, 6, 57);
+    line-height: 1.8;
+}

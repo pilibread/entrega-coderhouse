@@ -1,0 +1,131 @@
+footer {
+  background: white;
+  padding: 50px;
+  align-items: center;
+}
+footer .logo {
+  height: 120px;
+}
+footer p {
+  font-size: 1.2rem;
+  color: rgb(5, 6, 57);
+}
+footer .name {
+  font-weight: bolder;
+  font-size: 1.5;
+}
+
+.navbar {
+  font-size: 1.5rem;
+  background-color: white;
+  padding: 0 0;
+  width: 100vw;
+}
+.navbar .logo {
+  height: 100px;
+  padding: 0px 50px;
+  align-items: left;
+  border-radius: 25%;
+}
+.navbar .menu-link {
+  color: rgb(17, 37, 58);
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.navbar .custom-nav-link:hover {
+  color: rgb(36, 78, 123);
+  background-color: rgb(223, 207, 190);
+}
+
+body header .carousel-inner {
+  width: 100vw;
+}
+body header .carousel-container {
+  position: relative;
+}
+body header .carousel-container .overlay-text {
+  position: absolute;
+  text-align: center;
+  top: 30px;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 50px;
+  margin-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 2;
+  width: 1500px;
+}
+body header .carousel-container .overlay-text .titular {
+  font-size: 8rem;
+  color: rgb(5, 6, 57);
+}
+body header .carousel-container .overlay-text .subtitular {
+  font-size: 3rem;
+}
+body main {
+  padding: 70px 180px 70px 180px;
+}
+body main .article1 {
+  padding-right: 100px;
+}
+body main .article1 .titulito {
+  font-size: 2.2rem;
+}
+body main .article1 .resumen {
+  font-size: 1.3rem;
+  text-align: justify;
+}
+body main .aside1 {
+  font-size: 1.3rem;
+  background-color: white;
+  text-align: left;
+  align-self: center;
+  padding: 40px;
+}
+body main .aside1 .objetivos {
+  font-weight: bold;
+  text-decoration: underline;
+}
+body .article2 {
+  text-align: center;
+  padding: 50px;
+}
+
+body section .tituloDePagina {
+  font-size: 3rem;
+  margin-top: 40px;
+}
+body section .texto {
+  font-size: 1.3rem;
+  text-align: justify;
+  padding-right: 60px;
+  border-right: 1px solid rgb(5, 6, 57);
+}
+body section h4 {
+  padding: 40px;
+  font-weight: bolder;
+  font-style: italic;
+  text-align: center;
+}
+
+.tituloDePagina {
+  font-size: 3rem;
+  padding-bottom: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(229, 224, 221);
+  font-family: "DM Sans", sans-serif;
+  color: rgb(5, 6, 57);
+  line-height: 1.8;
+}
+
+/*# sourceMappingURL=style.css.map */

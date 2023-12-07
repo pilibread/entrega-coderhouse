@@ -1,0 +1,78 @@
+$oscuro: rgb(5, 6, 57);
+$claro: rgb(223, 207, 190);
+$medio: rgb(36, 78, 123);
+$no-blanco: rgb(229, 224, 221);
+$titulo: 3rem;
+$texto: 1.3rem;
+
+body {
+    header {
+        .carousel-inner {
+            width: 100vw;
+        }
+
+        .carousel-container {
+            position: relative;
+
+            .overlay-text {
+                position: absolute;
+                text-align: center;
+                top: 30px;
+                left: 0;
+                right: 0;
+                background-color: rgba(255, 255, 255, 0.6);
+                padding: 50px;
+                margin-top: 35px;
+                margin-left: auto;
+                margin-right: auto;
+                z-index: 2;
+                width: 1500px;
+
+                .titular {
+                    font-size: 8rem;
+                    color: $oscuro;
+                }
+
+                .subtitular {
+                    font-size: $titulo;
+                }
+            }
+        }
+    }
+
+    main {
+        padding: 70px 180px 70px 180px;
+
+        .article1 {
+            padding-right: 100px;
+
+            .titulito {
+                font-size: 2.2rem;
+            }
+
+            .resumen {
+                font-size: $texto;
+                text-align: justify;
+            }
+        }
+
+        .aside1 {
+            font-size: $texto;
+            background-color: white;
+            text-align: left;
+            align-self: center;
+            padding: 40px;
+
+            .objetivos {
+                font-weight: bold;
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .article2 {
+        text-align: center;
+        padding: 50px;
+    }
+
+}
