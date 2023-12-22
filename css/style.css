@@ -1,10 +1,11 @@
 footer {
   background: white;
-  padding: 50px;
+  padding: 70px;
   align-items: center;
 }
 footer .logo {
-  height: 120px;
+  width: 30vw;
+  align-self: auto;
 }
 footer p {
   font-size: 1.2rem;
@@ -40,57 +41,198 @@ footer .name {
 body header .carousel-inner {
   width: 100vw;
 }
-body header .carousel-container {
-  position: relative;
+@media (min-width: 1201px) {
+  body header .carousel-container {
+    position: relative;
+  }
+  body header .carousel-container .overlay-text {
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 30px;
+    margin: auto;
+    z-index: 2;
+    width: 90vw;
+  }
+  body header .carousel-container .overlay-text .titular {
+    font-size: 7rem;
+    color: rgb(5, 6, 57);
+  }
+  body header .carousel-container .overlay-text .subtitular {
+    font-size: 3rem;
+  }
 }
-body header .carousel-container .overlay-text {
-  position: absolute;
-  text-align: center;
-  top: 30px;
-  left: 0;
-  right: 0;
-  background-color: rgba(255, 255, 255, 0.6);
-  padding: 50px;
-  margin-top: 35px;
-  margin-left: auto;
-  margin-right: auto;
-  z-index: 2;
-  width: 1500px;
+@media (min-width: 769px) and (max-width: 1200px) {
+  body header .carousel-container {
+    position: relative;
+  }
+  body header .carousel-container .overlay-text {
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 20px;
+    margin: auto;
+    z-index: 2;
+    width: 90vw;
+  }
+  body header .carousel-container .overlay-text .titular {
+    font-size: 4rem;
+    color: rgb(5, 6, 57);
+  }
+  body header .carousel-container .overlay-text .subtitular {
+    font-size: 2.5rem;
+  }
 }
-body header .carousel-container .overlay-text .titular {
-  font-size: 8rem;
-  color: rgb(5, 6, 57);
+@media (min-width: 321px) and (max-width: 768px) {
+  body header .carousel-container .overlay-text {
+    text-align: center;
+    top: 20px;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    margin: auto;
+    z-index: 2;
+    width: 90vw;
+  }
+  body header .carousel-container .overlay-text .titular {
+    font-size: 3rem;
+    color: rgb(5, 6, 57);
+  }
+  body header .carousel-container .overlay-text .subtitular {
+    font-size: 1.5rem;
+  }
 }
-body header .carousel-container .overlay-text .subtitular {
-  font-size: 3rem;
+@media (max-width: 320px) {
+  body header .carousel-container .overlay-text {
+    text-align: center;
+    top: 20px;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+    width: 90vw;
+  }
+  body header .carousel-container .overlay-text .titular {
+    font-size: 2rem;
+    color: rgb(5, 6, 57);
+  }
+  body header .carousel-container .overlay-text .subtitular {
+    font-size: 1.3rem;
+  }
 }
-body main {
-  padding: 70px 180px 70px 180px;
+@media (min-width: 1201px) {
+  body main {
+    padding: 70px 180px 70px 180px;
+  }
+  body main .article1 {
+    padding-right: 100px;
+  }
+  body main .article1 .titulito {
+    font-size: 2.2rem;
+  }
+  body main .article1 .resumen {
+    font-size: 1.3rem;
+    text-align: justify;
+  }
+  body main .aside1 {
+    font-size: 1.3rem;
+    background-color: white;
+    text-align: left;
+    align-self: center;
+    padding: 40px;
+  }
+  body main .aside1 .objetivos {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  body main .article2 {
+    text-align: center;
+    padding: 50px;
+  }
+  body main .muestra {
+    align-self: auto;
+    justify-self: auto;
+    padding: 10px;
+  }
 }
-body main .article1 {
-  padding-right: 100px;
+@media (min-width: 769px) and (max-width: 1200px) {
+  body main {
+    padding: 40px 80px 40px 80px;
+  }
+  body main .article1 {
+    padding-bottom: 20px;
+  }
+  body main .article1 .titulito {
+    font-size: 2.2rem;
+  }
+  body main .article1 .resumen {
+    font-size: 1.3rem;
+    text-align: justify;
+  }
+  body main .aside1 {
+    font-size: 1.3rem;
+    background-color: white;
+    text-align: left;
+    align-self: center;
+    padding: 40px;
+  }
+  body main .aside1 .objetivos {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  body main .article2 {
+    text-align: center;
+    padding: 50px;
+  }
+  body main .muestra {
+    align-self: auto;
+    justify-self: auto;
+    padding: 10px;
+  }
 }
-body main .article1 .titulito {
-  font-size: 2.2rem;
-}
-body main .article1 .resumen {
-  font-size: 1.3rem;
-  text-align: justify;
-}
-body main .aside1 {
-  font-size: 1.3rem;
-  background-color: white;
-  text-align: left;
-  align-self: center;
-  padding: 40px;
-}
-body main .aside1 .objetivos {
-  font-weight: bold;
-  text-decoration: underline;
-}
-body .article2 {
-  text-align: center;
-  padding: 50px;
+@media (min-width: 321px) and (max-width: 768px) {
+  body main {
+    padding: 15px 40px 15px 40px;
+  }
+  body main .article1 {
+    padding-bottom: 20px;
+  }
+  body main .article1 .titulito {
+    font-size: 1.5rem;
+  }
+  body main .article1 .resumen {
+    font-size: 1.1rem;
+    text-align: justify;
+  }
+  body main .aside1 {
+    font-size: 1.1rem;
+    background-color: white;
+    text-align: left;
+    align-self: center;
+    padding: 20px;
+  }
+  body main .aside1 .objetivos {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  body main .article2 {
+    text-align: center;
+    padding: 50px;
+  }
+  body main .muestra {
+    align-self: auto;
+    justify-self: auto;
+    padding: 10px;
+  }
 }
 
 body section .tituloDePagina {
@@ -108,6 +250,14 @@ body section h4 {
   font-weight: bolder;
   font-style: italic;
   text-align: center;
+}
+body section .referencia {
+  vertical-align: super;
+  font-size: 1rem;
+}
+
+main .texto {
+  font-size: 1.3rem;
 }
 
 .tituloDePagina {
